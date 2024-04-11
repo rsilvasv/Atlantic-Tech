@@ -41,6 +41,46 @@ body{
                 margin-top: 2rem;
                 font-family: "Nunito", sans-serif;
             }
+            .cards-index {
+                display: flex;
+                justify-content: space-between;
+                .card-body {
+                    width: 45%;
+                    padding: 1.5rem;
+                    margin-top: 5rem;
+                    margin-left: 2rem;
+                    background-color: #F8F9FA;
+                    border-style: none;
+                    border-radius:  35px 35px 35px 35px;
+                    h3 {
+                        font-size: 1.3rem;
+                    }
+                    .icon-title-container {
+                        display: flex;
+                        align-items: center;
+
+                        .icon-container {
+                            
+                            width: 70%;/* Tamaño del cuadrado */
+                            height: auto; /* Tamaño del cuadrado */
+                            border: 0 solid black;
+                            box-shadow: 5px 5px 8px #1BBF9F; /* Sombra */
+                            border-radius: 10%;
+                            display: flex;
+                            justify-content: center; /* Centra el ícono horizontalmente */
+                            align-items: center; /* Centra el ícono verticalmente */
+                            margin: 1rem;
+                        }
+
+                        svg {
+                        width: 5rem; /* Tamaño del ícono dentro del cuadrado */
+                        height: 5rem; /* Altura automática para mantener la proporción */
+                        }
+
+                    }
+                }
+                
+            }
         }
         .fondo-relleno {
             background-color: black;

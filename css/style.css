@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -36,6 +37,41 @@ body main .title-main h2 {
   text-align: center;
   margin-top: 2rem;
   font-family: "Nunito", sans-serif;
+}
+body main .title-main .cards-index {
+  display: flex;
+  justify-content: space-between;
+}
+body main .title-main .cards-index .card-body {
+  width: 45%;
+  padding: 1.5rem;
+  margin-top: 5rem;
+  margin-left: 2rem;
+  background-color: #F8F9FA;
+  border-style: none;
+  border-radius: 35px 35px 35px 35px;
+}
+body main .title-main .cards-index .card-body h3 {
+  font-size: 1.3rem;
+}
+body main .title-main .cards-index .card-body .icon-title-container {
+  display: flex;
+  align-items: center;
+}
+body main .title-main .cards-index .card-body .icon-title-container .icon-container {
+  width: 70%; /* Tamaño del cuadrado */
+  height: auto; /* Tamaño del cuadrado */
+  border: 0 solid black;
+  box-shadow: 5px 5px 8px #1BBF9F; /* Sombra */
+  border-radius: 10%;
+  display: flex;
+  justify-content: center; /* Centra el ícono horizontalmente */
+  align-items: center; /* Centra el ícono verticalmente */
+  margin: 1rem;
+}
+body main .title-main .cards-index .card-body .icon-title-container svg {
+  width: 5rem; /* Tamaño del ícono dentro del cuadrado */
+  height: 5rem; /* Altura automática para mantener la proporción */
 }
 body main .fondo-relleno {
   background-color: black;
