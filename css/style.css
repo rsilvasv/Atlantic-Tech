@@ -1,3 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 
+/* Setup body */
+body img {
+  width: 6rem;
+  height: auto;
+  margin-left: 2rem;
+}
+body #navbarNav {
+  justify-content: center;
+  font-size: 1.3rem;
+  font-family: "Oxygen", sans-serif;
+}
+body #navbarNav .navbar-nav .nav-item {
+  margin-left: 1rem;
+}
+body .navbar-brand {
+  margin-left: 2rem;
+  font-family: "Oxygen", sans-serif;
+}
+body main .title-main {
+  background-color: rgb(34, 193, 195);
+  background: linear-gradient(0deg, rgb(34, 193, 195) 0%, rgb(3, 184, 42) 100%);
+  padding: 10rem;
+}
+body main .title-main h1 {
+  font-family: "Oxygen", sans-serif;
+  justify-content: center;
+  text-align: center;
+}
+body main .title-main h2 {
+  justify-content: center;
+  text-align: center;
+  margin-top: 2rem;
+  font-family: "Nunito", sans-serif;
+}
+body main .fondo-relleno {
+  background-color: black;
+  padding: 5rem;
+}
 
 /*# sourceMappingURL=style.css.map */
