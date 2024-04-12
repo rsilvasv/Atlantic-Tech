@@ -5,7 +5,16 @@
 }
 
 /* Setup body */
-body img {
+body {
+  background-image: url("../images/fondo-section2.jpg");
+  background-size: cover;
+}
+body nav {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  background-color: transparent;
+}
+body .container-fluid img {
   width: 6rem;
   height: auto;
   margin-left: 2rem;
@@ -14,29 +23,39 @@ body #navbarNav {
   justify-content: center;
   font-size: 1.3rem;
   font-family: "Oxygen", sans-serif;
+  color: white;
 }
 body #navbarNav .navbar-nav .nav-item {
   margin-left: 1rem;
 }
+body #navbarNav .navbar-nav .nav-item a {
+  color: white;
+}
+body #navbarNav .navbar-nav .nav-item a:hover {
+  color: #08f5f5;
+}
 body .navbar-brand {
   margin-left: 2rem;
   font-family: "Oxygen", sans-serif;
+  color: white;
 }
 body main .title-main {
-  background-color: rgb(34, 193, 195);
-  background: linear-gradient(0deg, rgb(34, 193, 195) 0%, rgb(3, 184, 42) 100%);
+  /* background-color: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(3,184,42,1) 100%); */
   padding: 10rem;
 }
 body main .title-main h1 {
   font-family: "Oxygen", sans-serif;
   justify-content: center;
   text-align: center;
+  color: white;
 }
 body main .title-main h2 {
   justify-content: center;
   text-align: center;
   margin-top: 2rem;
   font-family: "Nunito", sans-serif;
+  color: white;
 }
 body main .title-main .cards-index {
   display: flex;
@@ -50,6 +69,10 @@ body main .title-main .cards-index .card-body {
   background-color: #F8F9FA;
   border-style: none;
   border-radius: 35px 35px 35px 35px;
+  /* transition: transform 0.3s ease-in-out;
+  &:hover{
+      transform: scale(1.05);
+  }  efecto hover*/
 }
 body main .title-main .cards-index .card-body h3 {
   font-size: 1.3rem;
@@ -70,12 +93,16 @@ body main .title-main .cards-index .card-body .icon-title-container .icon-contai
   margin: 1rem;
 }
 body main .title-main .cards-index .card-body .icon-title-container svg {
-  width: 5rem; /* Tamaño del ícono dentro del cuadrado */
-  height: 5rem; /* Altura automática para mantener la proporción */
+  width: 3.5rem; /* Tamaño del ícono dentro del cuadrado */
+  height: 3.5rem; /* Altura automática para mantener la proporción */
 }
 body main .fondo-relleno {
   background-color: black;
   padding: 5rem;
+}
+body main .section-servicios img {
+  width: 100%;
+  height: auto;
 }
 
 /*# sourceMappingURL=style.css.map */
