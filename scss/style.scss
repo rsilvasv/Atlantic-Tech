@@ -34,6 +34,7 @@ body{
                     color: white;
                     &:hover {
                         color: #08f5f5;
+                        text-decoration: underline;
                     }
                 }
             }
@@ -43,6 +44,10 @@ body{
         margin-left: 2rem;
         font-family: "Oxygen", sans-serif;
         color: white;
+        &:hover {
+            color: #08f5f5;
+            text-decoration: underline;
+        }
     }
     main {
         .title-main{
@@ -109,7 +114,38 @@ body{
         }
         .fondo-relleno {
             background-color: black;
-            padding: 5rem;
+            padding: 3rem;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            .relleno-container {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                .relleno-titulo {
+                    h2 {
+                    font-family: "Nunito", sans-serif;
+                    font-size: 1.5rem;
+                    color: white;
+                    justify-content: center;
+                    text-align: center;
+                    margin-bottom: 1.5rem;
+                    }
+
+                }
+            
+    
+                .relleno-img {
+                    
+                    img {
+                        width: 2rem;
+                        height: 2rem;
+                        justify-content: space-between;
+                        margin-left: 2.5rem;
+                    }
+                
+                }
+            }
         }
         .section-servicios{
             padding: 5rem;

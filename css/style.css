@@ -33,11 +33,16 @@ body #navbarNav .navbar-nav .nav-item a {
 }
 body #navbarNav .navbar-nav .nav-item a:hover {
   color: #08f5f5;
+  text-decoration: underline;
 }
 body .navbar-brand {
   margin-left: 2rem;
   font-family: "Oxygen", sans-serif;
   color: white;
+}
+body .navbar-brand:hover {
+  color: #08f5f5;
+  text-decoration: underline;
 }
 body main .title-main {
   padding: 10rem;
@@ -98,7 +103,29 @@ body main .title-main .cards-index .card-body .icon-title-container svg {
 }
 body main .fondo-relleno {
   background-color: black;
-  padding: 5rem;
+  padding: 3rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+body main .fondo-relleno .relleno-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+body main .fondo-relleno .relleno-container .relleno-titulo h2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+body main .fondo-relleno .relleno-container .relleno-img img {
+  width: 2rem;
+  height: 2rem;
+  justify-content: space-between;
+  margin-left: 2.5rem;
 }
 body main .section-servicios {
   padding: 5rem;
