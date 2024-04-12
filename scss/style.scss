@@ -46,8 +46,7 @@ body{
     }
     main {
         .title-main{
-            /* background-color: rgb(34,193,195);
-            background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(3,184,42,1) 100%); */
+
             padding: 10rem;
             h1{
                 font-family: "Oxygen", sans-serif;
@@ -78,6 +77,9 @@ body{
                         transform: scale(1.05);
                     }  efecto hover*/
                     h3 {
+                        strong {
+                            color:#770D79;
+                        }
                         font-size: 1.3rem;
                     }
                     .icon-title-container {
@@ -88,7 +90,6 @@ body{
                             width: 45%;/* Tamaño del cuadrado */
                             height: auto; /* Tamaño del cuadrado */
                             border: 0 solid black;
-                            box-shadow: 5px 5px 8px #1BBF9F; /* Sombra */
                             border-radius: 10%;
                             display: flex;
                             justify-content: center; /* Centra el ícono horizontalmente */
@@ -111,12 +112,9 @@ body{
             padding: 5rem;
         }
         .section-servicios{
-            img {
-                width: 100%;
-                height: auto;
-                
-                
-            }
+            padding: 5rem;
+            background-color: rgb(73,219,244);
+            background: radial-gradient(circle, rgba(73,219,244,1) 0%, rgba(86,11,104,1) 100%);
         }
     }
 }

@@ -40,8 +40,6 @@ body .navbar-brand {
   color: white;
 }
 body main .title-main {
-  /* background-color: rgb(34,193,195);
-  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(3,184,42,1) 100%); */
   padding: 10rem;
 }
 body main .title-main h1 {
@@ -77,6 +75,9 @@ body main .title-main .cards-index .card-body {
 body main .title-main .cards-index .card-body h3 {
   font-size: 1.3rem;
 }
+body main .title-main .cards-index .card-body h3 strong {
+  color: #770D79;
+}
 body main .title-main .cards-index .card-body .icon-title-container {
   display: flex;
   align-items: center;
@@ -85,7 +86,6 @@ body main .title-main .cards-index .card-body .icon-title-container .icon-contai
   width: 45%; /* Tamaño del cuadrado */
   height: auto; /* Tamaño del cuadrado */
   border: 0 solid black;
-  box-shadow: 5px 5px 8px #1BBF9F; /* Sombra */
   border-radius: 10%;
   display: flex;
   justify-content: center; /* Centra el ícono horizontalmente */
@@ -100,9 +100,10 @@ body main .fondo-relleno {
   background-color: black;
   padding: 5rem;
 }
-body main .section-servicios img {
-  width: 100%;
-  height: auto;
+body main .section-servicios {
+  padding: 5rem;
+  background-color: rgb(73, 219, 244);
+  background: radial-gradient(circle, rgb(73, 219, 244) 0%, rgb(86, 11, 104) 100%);
 }
 
 /*# sourceMappingURL=style.css.map */
